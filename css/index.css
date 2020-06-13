@@ -1,10 +1,6 @@
 
 .navbar {
   background: #fbff1f;
-  /*
-  background: rgb(157,21,255);
-  background: linear-gradient(0deg, rgba(157,21,255,1) 0%, rgba(250,164,52,1) 50%, rgba(251,255,31,1) 100%);
-  */
 }
 
 .navbar-img {
@@ -22,7 +18,7 @@
 
 .navbar-title {
   font-size: 2.5vw;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 .navbar-link {
@@ -51,12 +47,29 @@
 
 }
 
+.home-stripe {
+  position: absolute;
+  top: 10%;
+  left: ;
+    z-index: 2;
+  height: 50vh;
+      width: 50vh;
+  border-left: 100px solid #ff4136;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid #ff4136;
+/*
+background: rgb(157,21,255);
+background: linear-gradient(0deg, rgba(157,21,255,1) 0%, rgba(250,164,52,1) 50%, rgba(251,255,31,1) 100%);
+*/
+}
+
 .home-title {
   position: absolute;
   margin-top: 10vh;
   margin-left: 5vw;
   font-size: 10vw;
-  font-weight: 400;
+  font-weight: 800;
   z-index: 5;
 }
 
@@ -65,7 +78,8 @@
   margin-top: 50vh;
   margin-left: 5vw;
   font-size: 3vw;
-  font-weight: 600;
+  font-weight: 800;
+  font-style: italic;
   z-index: 5;
 }
 

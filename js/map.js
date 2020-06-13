@@ -4,7 +4,7 @@
 let userGeoPoint;
 
 let userLat = 43.4675;
-let userLong = -79.6877;
+let userLong = -79.7877;
 
 if (!navigator.geolocation) {
   console.log("Geolocation API not supported by browser");
