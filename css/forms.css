@@ -1,5 +1,6 @@
 
 .auth-form {
+    margin-top: 5%;
     transition: 0.3s;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
@@ -16,4 +17,8 @@
 
 .dark-form {
     padding: 5%;
+}
+
+.btn-primary {
+    
 }
