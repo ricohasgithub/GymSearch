@@ -17,8 +17,18 @@
 
 .dark-form {
     padding: 5%;
+    background-color: gold;
+    border-radius: 10px 0px 0px 10px;
 }
 
-.btn-primary {
-    
+.light-btn {
+    color: white !important;
+    border-color: white !important;
+    background-color: gold !important;
+}
+
+.dark-btn {
+    color: black !important;
+    border-color: gold !important;
+    background-color: gold !important;
 }
